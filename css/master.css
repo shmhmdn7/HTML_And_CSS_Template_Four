@@ -754,8 +754,12 @@ ul{
 /* End Backup Manager */
 /* End Settings */
 /* Start Profile */
-/* Start Overview */
+
 @media (max-width: 767px) {
+    .profile-page{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .profile-page .overview {
         flex-direction: column;
     }
@@ -828,6 +832,8 @@ ul{
 @media (max-width: 767px){
     .profile-page .other-data{
         flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
     }
 }
 .profile-page .skills{
